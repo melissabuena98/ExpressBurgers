@@ -11,3 +11,8 @@ https://color.adobe.com/Bobs-Burgers-color-theme-5833993/edit/?copy=true&base=2&
    background-color: pink;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
+
+ @font-face {
+  font-family: BB;
+  src: url(/fonts/BB.ttf);
+}
