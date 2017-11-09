@@ -2,5 +2,11 @@ extends layout
 
 block vars 
   -var title = "Burgers";
+  -var image = "images/burger1.jpg";
+
 
 block content
+  each item in burgers.expressburgers
+    div(class='foodbox')
+      img(src=item[1] class='foodpics')
+      h3 #{item[0]}

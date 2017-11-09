@@ -96,3 +96,12 @@ p {
   padding: 20px;
 }
 
+.foodbox{
+  display:inline-block;
+  margin:20px;
+}
+
+.foodpics{
+  width:250px;
+  height:250px;
+}

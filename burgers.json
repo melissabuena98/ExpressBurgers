@@ -1,0 +1,47 @@
+{
+    "expressburgers":[
+        [
+            "Express Single",
+            "images/burger1.jpg",
+            "570 cal",
+            "A juicy quarter pounder of fresh beef decorated with premium toppings all between a warm toasted bun."
+        ],
+        [
+            "Express Kid's Burger",
+            "images/burger2.jpg",
+            "220 cal",
+            "Simple but delicious single patty burger."
+    
+        ],
+    
+    
+        [
+            "Express Bacon Burger",
+            "images/burger3.jpg",
+            "370 cal",
+            "Twice the patty, twice the cheese, twice the bacon, twice the fun."
+        ],
+    
+        [
+            "Express Classic Deluxe",
+            "images/burger4.jpg",
+            "410 cal",
+            "All of your classic, favorite toppings on one burger."
+        ],
+    
+        [
+            "Express Flatline Burger",
+            "images/burger5.jpg",
+            "1350 cal",
+            "For the hungriest of them all. Guaranteed to make your heart stop or your money back."
+        ],
+    
+        [
+            "Express Chicken Burger",
+            "images/burger6.jpg",
+            "320 cal",
+            "Tender juicy chicken patty on a warm, toasted sesame seed bun."
+        ]
+
+    ]   
+}
