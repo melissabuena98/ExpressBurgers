@@ -1,44 +1,37 @@
 {
-    "side1":
+    "expresssides":
     [
-        "Express Fries",
-        "images/side1.jpg",
-        "cal",
-        "Description"
-    ],
-
-    "side2":
-    [
-        "Express Onion Rings",
-        "images/side2.jpg",
-        "cal",
-        "Description"
-    ],
-
-    "side3":
-    [
-        "Express Mozzarella Sticks",
-        "images/side3.jpg",
-        "cal",
-        "Description"
-    ],
-
-    "side4":
-    [
-        "Express Tots",
-        "images/side4.jpg",
-        "cal",
-        "Description"
-    ],
-
-    "side5":
-    [
-        "Express Side Salad",
-        "images/side5.jpg",
-        "cal",
-        "Description"
+        [
+            "Express Fries",
+            "images/side1.jpg",
+            "310 cal",
+            "Crispy golden fries made from Russet potatoes."
+        ],
+        [
+            "Express Onion Rings",
+            "images/side2.jpg",
+            "320 cal",
+            "Our famous beer-battered crispy onion rings."
+        ],
+        [
+            "Express Mozzarella Sticks",
+            "images/side3.jpg",
+            "420 cal",
+            "Herb-fried mozzarella sticks served with our special marinara sauce."
+        ],
+        [
+            "Express Tots",
+            "images/side4.jpg",
+            "370 cal",
+            "Cheese filled tater tots for an explosion in every bite."
+        ],
+        [
+            "Express Side Salad",
+            "images/side5.jpg",
+            "200 cal",
+            "Fresh greens and cherry tomatoes with your choice of dressing."
+        ]
+    
     ]
-
-
 
 }
