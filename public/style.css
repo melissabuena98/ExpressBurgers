@@ -26,3 +26,9 @@ https://color.adobe.com/Bobs-Burgers-color-theme-5833993/edit/?copy=true&base=2&
   width:250px;
   height:250px;
 }
+
+#map {
+  width: 100%;
+  height: 400px;
+  background-color: grey;
+}
