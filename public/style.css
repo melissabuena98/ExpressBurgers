@@ -16,3 +16,13 @@ https://color.adobe.com/Bobs-Burgers-color-theme-5833993/edit/?copy=true&base=2&
   font-family: BB;
   src: url(/fonts/BB.ttf);
 }
+
+.foodbox{
+  display:inline-block;
+  margin:20px;
+}
+
+.foodpics{
+  width:250px;
+  height:250px;
+}
