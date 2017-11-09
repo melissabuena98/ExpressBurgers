@@ -4,3 +4,8 @@ block vars
   -var title = "Sides";
 
 block content
+  each item in sides.expresssides
+    div(class='foodbox')
+      img(src="#{item[1]}" class='foodpics')
+      h3 #{item[0]}
+      p #{item[1]}

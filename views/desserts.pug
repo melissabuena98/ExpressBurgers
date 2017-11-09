@@ -4,3 +4,8 @@ block vars
   -var title = "Desserts";
 
 block content
+  each item in desserts.expressdesserts
+    div(class='foodbox')
+      img(src="#{item[1]}" class='foodpics')
+      h3 #{item[0]}
+      p #{item[1]}

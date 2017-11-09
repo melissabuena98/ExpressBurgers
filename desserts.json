@@ -1,48 +1,37 @@
 {
-    "dessert1":
+    "expressdesserts":
     [
-        "Express Strawberry Cheesecake",
-        "images/dessert1.jpg",
-        "230 cal",
-        "Classic New York style cheesecake topped with fresh strawberries."
-    ],
-
-    "dessert2":
-    [
-        "Express Dessert2",
-        "images/dessert2.jpg",
-        "cal",
-        "Description"
-
-    ],
-
-    "dessert3":
-    [
-        "Express Dessert3",
-        "images/dessert3.jpg",
-        "cal",
-        "Description"
-    ],
-
-    "dessert4":
-    [
-        "Express Dessert4",
-        "images/dessert4.jpg",
-        "cal",
-        "Description"
-    ],
-
-    "dessert5":
-    [
-        "Express Dessert5",
-        "images/dessert5.jpg",
-        "cal",
-        "Description"
-    ],
-
-    "dessert6":
-    [
-
-    ]
+        [
+            "Express Strawberry Cheesecake",
+            "images/dessert1.jpg",
+            "230 cal",
+            "Classic New York style cheesecake topped with fresh strawberries."
+        ],
+        [
+            "Express Chocolate Shake",
+            "images/dessert2.png",
+            "350 cal",
+            "Our hand spun creamy chocolate shake made with Haagen Dazs Ice Cream."
     
+        ],
+        [
+            "Express Brownie",
+            "images/dessert3.jpg",
+            "280 cal",
+            "Homemade fudge brownie with walnut chunks baked fresh every day."
+        ],
+        [
+            "Express Sundae",
+            "images/dessert4.jpg",
+            "410 cal",
+            "Vanilla ice cream drizzled in hot fudge topped with a maraschino cherry."
+        ],
+        [
+            "Express M&Ms Cookie",
+            "images/dessert5.jpg",
+            "150 cal",
+            "Soft and chunky M&M cookies that melt in your mouth!"
+        ]
+    ]
+   
 }
