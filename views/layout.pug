@@ -6,6 +6,25 @@ html
    link(href='style.css', rel='stylesheet')
   body
     header
-      h1 #{title}
+      nav
+        ul
+          a(href="/")
+            li(id="logo_pic") 
+              img(src="/images/eb_logo_c.png")
+          a(href="/")
+            li(class="links") Home
+          a(href="directions")
+            li(class="links") Directions
+        ul
+          a(href="#" class="hover_menu")            
+            li(class="hover_menu") Menu
+              ul
+                a(href="burgers")
+                  li(class="hover_links") Burgers
+                a(href="sides")
+                  li(class="hover_links") Sides
+                a(href="desserts")
+                  li(class="hover_links") Desserts        
+      h1(id="heading") #{title}
     block content
     footer
