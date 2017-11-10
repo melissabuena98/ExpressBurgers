@@ -52,6 +52,80 @@ h1 {
   padding: 15px;
 }
 
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+.swing:hover {
+  -webkit-animation: swing 1s ease;
+  animation: swing 1s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
 nav {
   background-color: #759CBC;
   width: 100%;
@@ -157,6 +231,12 @@ p {
   height:250px;
 }
 
+.foodpics:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
 .hoverbox {
   display: none;
   /* width: auto; */
@@ -202,6 +282,7 @@ a:hover .hoverbox {
   width: 980px;
   padding: 30px;
   margin: auto;
+  margin-left: 270px;
 }
 
 footer{
@@ -213,8 +294,10 @@ footer{
 
 
   text-align: center;
+  font-family: BB2;
   clear: both;
-}
+  font-size: 1.5em;
+  letter-spacing: 3px;}
 
 .homeBody{
   background-color:rgba(107, 142, 170, 0.952);
@@ -251,6 +334,37 @@ background-color:#E67D50;
   border:2px solid #f2f2f2;
   -webkit-transition: all 500ms;      
 }
+
+.menuBody{
+margin:0 0 0 10%;
+}
+
+.menuBox{
+  text-align:center;
+  display:inline-block;
+  margin:5%;
+}
+
+.menuImg{
+  width:250px;
+  height:350px;
+  border-radius:40px;
+  border: 5px solid #759CBC;
+  -webkit-transition: all 500ms; 
+  opacity:0.8;     
+}
+
+.menuImg:hover{
+  -webkit-transform: scale(1.1);
+  border: 5px solid #E67D50;
+  opacity:1;
+}
+
+.menuBox h2{
+  font-family:BB;
+  font-size:50px;
+  margin:2% 0 0 0;
+}}
 
 #address {
   float: left;
