@@ -170,3 +170,8 @@ a:hover .hoverbox {
   padding: 30px;
   margin: auto;
 }
+
+.heading {
+  padding: 20px;
+  background-color: #FEE76D;
+}
