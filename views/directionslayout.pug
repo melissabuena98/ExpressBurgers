@@ -5,9 +5,31 @@ html
         title #{title}
         link(href='style.css', rel='stylesheet')
     body
-        h3 Google Maps
+        header
+            nav
+                ul
+                    a(href="/")
+                        li(id="logo_pic") 
+                        img(src="/images/eb_logo_c.png")
+                    a(href="/" id="homeLink")
+                        li(class="links") Home
+                    a(href="directions" id="directionLink")
+                        li(class="links") Directions
+                ul
+                    a(href="#" class="hover_menu" id="menuLink")            
+                        li(class="hover_menu" ) Menu
+                            ul
+                                a(href="burgers" id="burgerLink")
+                                    li(class="hover_links" ) Burgers
+                                a(href="sides")
+                                    li(class="hover_links") Sides
+                                a(href="desserts")
+                                    li(class="hover_links") Desserts 
+        h1(id="heading") #{title} 
         block content
+        h3 Google Maps
         iframe(width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Burger%20Express%206593%20Collins%20Dr%2C%20Moorpark%2C%20CA%2093021&key=AIzaSyAU5fXrGkhvX8V2bCusMYcZ8zfxcn88VQo" allowfullscreen)
+        footer
         //div(id="map")
         //script(async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAU5fXrGkhvX8V2bCusMYcZ8zfxcn88VQo&callback=initMap")
         //script(src="scripts/maps.js")
