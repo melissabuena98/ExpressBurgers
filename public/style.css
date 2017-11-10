@@ -47,8 +47,17 @@ nav a {
     text-decoration: none;
     color: #E67D50;
     font-size: 20px;
-    padding: 15px;
+    /* padding: 15px; */
     display:inline-block;
+}
+
+#homeLink {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#directionLink {
+  padding-right: 15px;
 }
 
 ul {
@@ -72,7 +81,7 @@ ul li:hover ul {
 ul li ul {
   background-color: #fff;  
   position: absolute;
-  width: 200px;
+  width: 120px;
   display: none;
 }
 
@@ -81,11 +90,21 @@ ul li ul li {
   background-color: #fff;
   color: #E67D50; 
   display: block; 
+  padding: 10px;  
 }
 
 ul li ul li a {
   text-align: left;   
   display:block !important;
+  padding: 10px;
+}
+
+#menuLink {  
+  padding-bottom: none;  
+}
+
+#burgerLink {
+  padding: none;
 }
 
 ul li ul li:hover {
@@ -96,12 +115,58 @@ p {
   padding: 20px;
 }
 
-.foodbox{
+.foodbox {
   display:inline-block;
   margin:20px;
 }
 
-.foodpics{
+.foodpics {
   width:250px;
   height:250px;
+}
+
+.hoverbox {
+  display: none;
+  /* width: auto; */
+  height: auto;
+    position: absolute;
+    /* top: 50%;
+    left: 50%; */
+    /* margin: -50px 0 0 -100px; */
+  text-align: left;
+  background-color: #fff;
+  border: 5px solid #5F697F;
+  margin: auto;
+  width: 300px;
+  padding: 10px;
+}
+
+a:hover .hoverbox {
+  display: inline-block;
+}
+
+.foodlinks:link {
+  text-decoration: none;
+  color: #5F697F;
+}
+
+.foodlinks:visited {
+  text-decoration: none;
+  color: #5F697F;
+}
+
+.foodlinks:hover {
+  text-decoration: none;
+  color: #5F697F;
+}
+
+.foodlinks:active {
+  text-decoration: none;
+  color: #5F697F;
+}
+
+#container {
+  width: 700px;
+  padding: 30px;
+  margin: auto;
 }
