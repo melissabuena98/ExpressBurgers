@@ -49,6 +49,7 @@ h1 {
 #heading {
   margin:0;
   padding-bottom: 15px;
+  padding: 15px;
 }
 
 nav {
@@ -79,17 +80,11 @@ ul {
   display: inline;
   margin: 0;
   padding: 0;
-
 }
 
 ul li {
   display: inline-block;
-
 }
-
-/* ul li:hover {
-  
-} */
 
 #homeLink li, #directionLink li{
   -webkit-transition: all 500ms;    
@@ -153,6 +148,10 @@ p {
   margin:20px;
 }
 
+.foodbox h3 {
+  font-size: 0.9em;
+}
+
 .foodpics {
   width:250px;
   height:250px;
@@ -170,8 +169,9 @@ p {
   background-color: #fff;
   border: 5px solid #5F697F;
   margin: auto;
-  width: 300px;
+  width: 200px;
   padding: 10px;
+  font-size: 0.8em;
 }
 
 a:hover .hoverbox {
@@ -199,7 +199,7 @@ a:hover .hoverbox {
 }
 
 #container {
-  width: 700px;
+  width: 980px;
   padding: 30px;
   margin: auto;
 }
@@ -210,6 +210,7 @@ footer{
   font-size:12px;
   margin:0px;
   padding:8px;
+  text-align: center;
 }
 
 .homeBody{
