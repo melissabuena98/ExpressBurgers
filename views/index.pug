@@ -1,9 +1,13 @@
 extends layout
 
 block vars 
-  -var title = "Home";
+  //- -var title = "Home";
+
+
 
 block content
-  h1 Welcome to Express Burgers!
-  p Established in 2011, we are a family owned and operated hamburger restaurant in New Jersey.
-  p Owners Bob and Linda Belcher are assisted by their three children, Tina, Gene, and Louise
+  div(class="homeBody")
+    img(src="images/front.png" id='frontImg')
+    div(class="menuBtn")
+      a(href="menu" id="menuLink")
+        h4 Explore Menu

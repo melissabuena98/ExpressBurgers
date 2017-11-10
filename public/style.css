@@ -16,15 +16,26 @@ html {
  body {
    background-color: #fff;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin:0;
  }
 
  header {
-   background-color: #FEE76D;
+   /* background-color: #FEE76D; */
+ }
+
+ #frontImg{
+   height:60%;
+   width:100%;
  }
 
  @font-face {
   font-family: BB;
   src: url(/fonts/BB.ttf);
+}
+
+@font-face {
+  font-family: BB2;
+  src: url(/fonts/BB2.ttf);
 }
 
 h1 {
@@ -34,20 +45,21 @@ h1 {
 }
 
 #heading {
-  padding: 20px;
+  margin:0;
 }
 
 nav {
-  background-color: #fff;
-  color: #E67D50;
-  width: auto;
+  background-color: #759CBC;
+  width: 100%;
+  margin:0px;
+  overflow:hidden;
 }
 
 nav a {
     text-decoration: none;
-    color: #E67D50;
-    font-size: 20px;
-    /* padding: 15px; */
+    color: #f2f2f2;
+    font-size: 28px;
+    padding: 15px;
     display:inline-block;
 }
 
@@ -64,14 +76,27 @@ ul {
   display: inline;
   margin: 0;
   padding: 0;
+
 }
 
 ul li {
   display: inline-block;
+
 }
 
-ul li:hover {
-  color: #FFA277;
+/* ul li:hover {
+  
+} */
+
+#homeLink li, #directionLink li{
+  -webkit-transition: all 500ms;    
+  
+}
+
+#homeLink li:hover, #directionLink li:hover{
+  color: #E67D50;
+  font-size:34px;
+  font-size-adjust: 18px; 
 }
 
 ul li:hover ul {
@@ -79,22 +104,25 @@ ul li:hover ul {
 }
 
 ul li ul {
-  background-color: #fff;  
+  background-color: rgba(107, 142, 170, 0.952);  
   position: absolute;
-  width: 120px;
+  width: 130px;
+  height:auto;
   display: none;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
+
 }
 
 ul li ul li {
   text-align: left; 
-  background-color: #fff;
-  color: #E67D50; 
+  font-size:20px;
+  color: #f2f2f2; 
   display: block; 
-  padding: 10px;  
+  padding: 5px;  
 }
 
 ul li ul li a {
-  text-align: left;   
+  text-align: left; 
   display:block !important;
   padding: 10px;
 }
@@ -108,7 +136,9 @@ ul li ul li a {
 }
 
 ul li ul li:hover {
-  color: #FFA277;
+  color: #E67D50;
+  -webkit-transition: all 200ms ease-in-out;
+  -webkit-transform: scale(1.1);
 }
 
 p {
@@ -169,4 +199,48 @@ a:hover .hoverbox {
   width: 700px;
   padding: 30px;
   margin: auto;
+}
+
+footer{
+  background-color:rgba(107, 142, 170, 0.952); 
+  color:#f2f2f2;
+  font-size:12px;
+  margin:0px;
+  padding:8px;
+}
+
+.homeBody{
+  background-color:rgba(107, 142, 170, 0.952);
+}
+
+.menuBtn{
+  position:fixed;
+  z-index:1;
+  /* top:45%;
+  left:60%; */
+  top:45%;
+  right:20%;
+  
+}
+
+.menuBtn a{
+
+  text-decoration:none;
+
+}
+
+.menuBtn h4:hover{
+background-color:#E67D50;
+-webkit-transform: scale(1.1);
+}
+
+.menuBtn h4{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size:32px;
+  color:#f2f2f2;
+  background:#759CBC;
+  border-radius:10px;
+  padding:10px;
+  border:2px solid #f2f2f2;
+  -webkit-transition: all 500ms;      
 }
