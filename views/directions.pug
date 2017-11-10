@@ -4,10 +4,17 @@ block vars
   -var title = "Directions";
 
 block content
-  p Express Burgers
-  | 6593 Collins Dr, 
-  | Moorpark, CA 93021
+  h3(id='location') Locations:
 
+  div(id='address') 
+    p 6593 Collins Dr, 
+    | Moorpark, CA 93021
+
+  h3(id='googleMap') Google Maps:
+  
+  div(id='map')
+    iframe(width="400" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Burger%20Express%206593%20Collins%20Dr%2C%20Moorpark%2C%20CA%2093021&key=AIzaSyAU5fXrGkhvX8V2bCusMYcZ8zfxcn88VQo" allowfullscreen)
+  
   //AIzaSyAU5fXrGkhvX8V2bCusMYcZ8zfxcn88VQo
   //Google Maps API key
   // <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAU5fXrGkhvX8V2bCusMYcZ8zfxcn88VQo&callback=initMap"
