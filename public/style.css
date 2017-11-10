@@ -20,6 +20,7 @@ html {
 
  header {
    background-color: #FEE76D;
+   padding-bottom: 10px;
  }
 
  @font-face {
@@ -30,11 +31,13 @@ html {
 h1 {
   font-family: BB;
   color: #1B1618;
-  font-size: 3em;
+  font-size: 5em;
+  text-align: center;
 }
 
 #heading {
   padding: 20px;
+  padding-bottom: 15px;
 }
 
 nav {
