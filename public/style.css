@@ -361,6 +361,7 @@ margin:0 0 0 10%;
   font-size:50px;
   margin:2% 0 0 0;
 
+}
 
 .menuBox a{
   text-decoration:none;
@@ -373,7 +374,7 @@ margin:0 0 0 10%;
 .menuBox a:hover{
   color:#E67D50;
 }
-}
+
 
 #address {
   float: left;
