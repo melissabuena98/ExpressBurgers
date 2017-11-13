@@ -378,8 +378,8 @@ margin:0 0 0 10%;
 
 #address {
   float: left;
-  margin: 75px 0px 0px 350px;
-  padding: 0px;
+  margin: 0px 0px 0px 270px;
+
 }
 
 #map {
@@ -402,4 +402,9 @@ margin:0 0 0 10%;
   margin: 0px 514px 0px 0px;
   padding: 0px;
   float: right;
+}
+
+#directionsImg {
+  float: left;
+  margin: 25px 0px 15.5px 125px
 }
